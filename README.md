@@ -1,4 +1,4 @@
-Recommended SSL/TLS implementation.
+Recommended SSL/TLS Web server implementation.
 ===========
 
 Last updated: Tuesday, March 11th, 2014 @ 07:30
@@ -14,3 +14,11 @@ ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+3DES:DH+3DES
 Sources for current recommendation:
 
 https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
+
+Contributors:
+
+[@shrikeh](https://twitter.com/shrikeh)
+
+## Todo ##
+
+- Set up public test server to test against by SSL Labs.
