@@ -11,6 +11,8 @@ The current recommended cipher suite string is:
 ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+3DES:DH+3DES:RSA+AESGCM:RSA+AES:RSA+3DES:!EXPORT:!DES40:!aNULL:!MD5:!DSS
 ```
 
+Note that at this time the ciphers derived from this suite are FIPS-compliant.
+
 Sources for current recommendation:
 
 https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
